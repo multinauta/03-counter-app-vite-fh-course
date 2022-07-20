@@ -8,6 +8,7 @@ export const FirstApp = ({ title, subTitle }) => {
         <>
             <h1>{ title }</h1>
             <p>{ subTitle }</p>
+            <p>{ name }</p>
         </>
 
     )
@@ -19,7 +20,8 @@ FirstApp.propTypes = {
     subTitle: PropTypes.number.isRequired
 }
 
-FirstApp.defaultProps = {  
+FirstApp.defaultProps = {
+    name: 'Alvaro Tapia',
     title: 'No hay titulo',
-    subTitle: "No hay subtitulo"
+
 }
