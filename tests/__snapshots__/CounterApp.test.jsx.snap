@@ -16,7 +16,9 @@ exports[`pruebas en <CounterApp /> debería de hacer match con el snapshopt 1`] 
   <button>
     -1
   </button>
-  <button>
+  <button
+    aria-label="btn-reset"
+  >
     Reset
   </button>
 </div>
