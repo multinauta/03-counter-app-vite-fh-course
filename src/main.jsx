@@ -12,6 +12,6 @@ ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         <HelloWorldApp />
         {/* <CounterApp  /> */}
-        <FirstApp />
+        <FirstApp title="Hola, soy Vegeta"/>
     </React.StrictMode>
 )
